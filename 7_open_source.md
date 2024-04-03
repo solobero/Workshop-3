@@ -14,5 +14,5 @@ Les dejo algunos ejemplos que podría ser útiles:
 
   Para esto deben crear una api_key de HuggingFace
 
-  El archivo (aux_files/)[]
+  El archivo [movie_descriptions_embeddings.json](aux_files/open_source.py)
   
