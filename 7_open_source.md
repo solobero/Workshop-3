@@ -14,5 +14,9 @@ Les dejo algunos ejemplos que podría ser útiles:
 
   Para esto deben crear una api_key de HuggingFace
 
-  El archivo [movie_descriptions_embeddings.json](aux_files/open_source.py)
+  El archivo [open_source.py](aux_files/open_source.py) muestra ejemplos de cómo utilizar estas herramientas asumiendo que ya crearon las api_key y que están almacenadas en el archivo gemini_api_key.env en diferentes renglones:
+
+gemini_api_key = XXXXX
+hf_api_key = XXXX
+  
   
