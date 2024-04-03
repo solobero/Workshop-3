@@ -14,7 +14,7 @@ Les dejo algunos ejemplos que podría ser útiles:
 
   Para esto deben crear una api_key de HuggingFace
 
-  El archivo [open_source.py](aux_files/open_source.py) muestra ejemplos de cómo utilizar estas herramientas asumiendo que ya crearon las api_key y que están almacenadas en el archivo gemini_api_key.env en diferentes renglones:
+  El archivo [open_source.py](aux_files/open_source.py) muestra ejemplos de cómo utilizar estas herramientas asumiendo que ya crearon las api_key y que están almacenadas en el archivo api_keys.env en diferentes renglones:
 
 ````python
 gemini_api_key = XXXXX 
