@@ -16,7 +16,7 @@ def query(payload):
 	return response.content
 
 # Configuración de API Keys de Gemini y HuggingFace
-_ = load_dotenv('gemini.env')
+_ = load_dotenv('api_keys.env')
 genai.configure(api_key=os.environ.get('gemini_api_key'))
 hf_api_key = os.environ.get('hf_api_key')
 
