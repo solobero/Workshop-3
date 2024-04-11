@@ -14,8 +14,11 @@ import json
 from openai import OpenAI
 import numpy as np
 
-_ = load_dotenv('openAI.env')
-client = OpenAI(api_key="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")
+_ = load_dotenv('C:\Users\\57301\\Documents\\Universidad\\Quintosemestre\\P1\Workshop 3\\Workshop-3\\openAI.env')
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get('openAI_api_key'),
+)
 
 with open('C:\\Users\\57301\\Documents\\Universidad\\Quintosemestre\\P1\\Workshop 3\\Workshop-3\\movie_descriptions_embeddings.json', 'r') as file:
     file_content = file.read()
